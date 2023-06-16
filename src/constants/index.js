@@ -8,6 +8,18 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "cta",
+    title: "CTA",
+  },
+  {
+    id: "fqa",
+    title: "FQA",
+  },
+  {
+    id: "download",
+    title: "Download",
+  },
+  {
     id: "contact",
     title: "Contact",
   },

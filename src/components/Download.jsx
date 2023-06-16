@@ -3,7 +3,7 @@ import styles, { layout } from "../styles";
 
 export default function Download() {
   return (
-    <section className={`${layout.section} justify-center w-[80%] mx-auto`}>
+    <section className={`${layout.section} justify-center w-[80%] mx-auto`} id="download">
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading1}>
           Download Now

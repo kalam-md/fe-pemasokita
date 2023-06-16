@@ -4,7 +4,7 @@ import EastIcon from '@mui/icons-material/East';
 
 export default function Overview() {
   return (
-    <section className={`${layout.section} justify-center w-[80%] mx-auto`}>
+    <section className={`${layout.section} justify-center w-[80%] mx-auto`} id="about">
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           {/* Cari tahu apakah <br className="sm:block hidden" /> kualitas produk baik */}

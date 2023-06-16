@@ -4,7 +4,7 @@ import EastIcon from '@mui/icons-material/East';
 
 export default function ClickToAction() {
   return (
-    <section className={`${layout.section} w-[80%] mx-auto`}>
+    <section className={`${layout.section} w-[80%] mx-auto`} id="cta">
       <div className={layout.sectionImg3}>
         <img src={cta} alt="explore" className="w-full h-full" />
 

@@ -5,27 +5,27 @@ export default function FrequentlyAskedQuestion() {
   const faqs = [
     {
       id: 1,
-      title: 'What is Tailwind CSS?',
+      title: 'What is Pemasokita',
       content:
-        'Tailwind CSS is a utility-first CSS framework that allows you to rapidly build custom user interfaces. It provides a set of pre-designed utility classes that you can combine to create the desired styles.',
+        'Pemasokita is suppliers are companies engaged in the sale of plants to SMEs and can scan the quality of the plants',
     },
     {
       id: 2,
-      title: 'How do I install Tailwind CSS?',
+      title: 'What new products are here?',
       content:
-        'To install Tailwind CSS in your project, you need to use a package manager like npm or yarn. Run the following command to install Tailwind CSS and its dependencies: \n\nnpm install tailwindcss',
+        'Currently there is only coffee as our product and in the future there will be many other products',
     },
     {
       id: 3,
-      title: 'Can I customize Tailwind CSS styles?',
+      title: 'How do you ensure the quality and health of the plants you supply?',
       content:
-        'Yes, Tailwind CSS provides a configuration file where you can customize various aspects of the framework. You can generate a default configuration file using the following command: \n\nnpx tailwindcss init',
+        'Maintaining the quality and health of our plants is our top priority. We have a team of experienced horticulturists who carefully inspect and care for each plant before it is shipped. We follow strict quality control measures to ensure that only healthy and vibrant plants are delivered to our customers.',
     },
     {
       id: 4,
-      title: 'Can I customize Tailwind CSS styles?',
+      title: 'Do you offer any discounts or special pricing for bulk orders?',
       content:
-        'Yes, Tailwind CSS provides a configuration file where you can customize various aspects of the framework. You can generate a default configuration file using the following command: \n\nnpx tailwindcss init',
+        'Yes, we offer competitive pricing for bulk orders. We understand the needs of SMEs and are willing to work with you to provide the best possible pricing based on the volume of your order. Contact our sales team to discuss your requirements and negotiate pricing options.',
     },
   ];
 
@@ -55,7 +55,7 @@ export default function FrequentlyAskedQuestion() {
   };
 
   return (
-    <section className={`w-[80%] mx-auto flex-col sm:py-16 py-6`}>
+    <section className={`w-[80%] mx-auto flex-col sm:py-16 py-6`} id="fqa">
       <div className="mx-auto">
         <h1 className="font-poppins font-bold xs:text-[48px] text-[40px] text-gray-800 xs:leading-[76.8px] leading-[66.8px] w-full text-center">Frequently Asked Questions </h1>
       </div>
